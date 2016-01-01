@@ -11,9 +11,19 @@ body{
 .marker{
   height:10px;width:10px;
   border-radius:50%;
+}
+.c12{
   background-color: red;
 }
-
+.c13{
+  background-color: yellow;
+}
+.c14{
+  background-color: blue;
+}
+.c15{
+  background-color: green;
+}
 .toggles{
   position:absolute;
   top:10px;

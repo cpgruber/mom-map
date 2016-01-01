@@ -10,23 +10,18 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 var ptLayer =  L.featureGroup().addTo(map);
 var locations = omnivore.geojson('data/data.json', null, L.mapbox.featureLayer());
 locations.on("ready", function(){
-  map.fitBounds(locations.getBounds());
-  locations.eachLayer(function(layer){
-     var marker = L.marker([layer.feature.geometry.coordinates[1],layer.feature.geometry.coordinates[0]])
-         .setIcon(L.divIcon({
-             className: "marker",
-             iconSize:[15,15],
-             popupAnchor:[0,0]
-         }))
-         .bindPopup(layer.feature.properties.school)
-         .addTo(ptLayer);
-   });
+  addLayers(locations)
 });
 
 var checkboxes = document.querySelectorAll("input[type=checkbox]");
 for (var i=0;i<checkboxes.length;i++){
   var box = checkboxes[i];
   box.addEventListener("click",checkBoxes)
+}
+
+function getClass(cOf){
+  var classOf = (cOf==2015)?"c15":(cOf==2014)?"c14":(cOf==2013)?"c13":"c12";
+  return "marker "+classOf;
 }
 
 function checkBoxes(){
@@ -38,18 +33,24 @@ function checkBoxes(){
   filterMap(years);
 }
 
+function addLayers(locations){
+  map.fitBounds(locations.getBounds());
+  locations.eachLayer(function(layer){
+    var cOf = layer.feature.properties.Class;
+    var cName = getClass(cOf);
+    var marker = L.marker([layer.feature.geometry.coordinates[1],layer.feature.geometry.coordinates[0]])
+       .setIcon(L.divIcon({
+           className: cName,
+           iconSize:[15,15],
+           popupAnchor:[0,0]
+       }))
+       .bindPopup(layer.feature.properties.College)
+       .addTo(ptLayer);
+   });
+}
+
 function filterMap(years){
   ptLayer.clearLayers();
   var locs = locations.setFilter(function(d){return years.indexOf(d.properties["Class"])!=-1});
-  map.fitBounds(locs.getBounds());
-  locs.eachLayer(function(layer){
-     var marker = L.marker([layer.feature.geometry.coordinates[1],layer.feature.geometry.coordinates[0]])
-         .setIcon(L.divIcon({
-             className: "marker",
-             iconSize:[15,15],
-             popupAnchor:[0,0]
-         }))
-         .bindPopup(layer.feature.properties.school)
-         .addTo(ptLayer);
-   });
+  addLayers(locs)
 }

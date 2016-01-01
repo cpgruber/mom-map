@@ -1,436 +1,1070 @@
 {"type":"FeatureCollection",
   "features":[
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Caballero",
-          "First":"Daniel",
-          "Class":"2015",
-          "College":"University of San Francisco",
-          "Latitude":"37.7757492",
-          "Longitude":"-122.4525743"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-122.4525743,37.7757492]
-        }
+      "properties":{
+        "Last":"Caballero",
+        "First":"Daniel",
+        "Class":"2015",
+        "College":"University of San Francisco",
+        "Latitude":"37.7757492","Longitude":"-122.4525743"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-122.4525743,37.7757492]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Cheesman",
-          "First":"Christina",
-          "Class":"2015",
-          "College":"Georgetown University",
-          "Latitude":"38.9076089",
-          "Longitude":"-77.0744472"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-77.0744472,38.9076089]
-        }
+      "properties":{
+        "Last":"Cheesman",
+        "First":"Christina",
+        "Class":"2015",
+        "College":"Georgetown University",
+        "Latitude":"38.9076089","Longitude":"-77.0744472"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-77.0744472,38.9076089]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Chilton",
-          "First":"Sarah",
-          "Class":"2015",
-          "College":"Whitworth College",
-          "Latitude":"47.7548497",
-          "Longitude":"-117.4220095"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-117.4220095,47.7548497]
-        }
+      "properties":{
+        "Last":"Chilton",
+        "First":"Sarah",
+        "Class":"2015",
+        "College":"Whitworth College",
+        "Latitude":"47.7548497","Longitude":"-117.4220095"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.4220095,47.7548497]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Clark",
-          "First":"Tony",
-          "Class":"2015",
-          "College":"Pepperdine University",
-          "Latitude":"34.0414045",
-          "Longitude":"-118.7117701"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-118.7117701,34.0414045]
-        }
+      "properties":{
+        "Last":"Clark",
+        "First":"Tony",
+        "Class":"2015",
+        "College":"Pepperdine University",
+        "Latitude":"34.0414045","Longitude":"-118.7117701"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-118.7117701,34.0414045]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Coulter",
-          "First":"Sara",
-          "Class":"2015",
-          "College":"Pepperdine University",
-          "Latitude":"34.0414045",
-          "Longitude":"-118.7117701"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-118.7117701,34.0414045]
-        }
+      "properties":{
+        "Last":"Coulter",
+        "First":"Sara",
+        "Class":"2015",
+        "College":"Pepperdine University",
+        "Latitude":"34.0414045","Longitude":"-118.7117701"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-118.7117701,34.0414045]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Dalbow",
-          "First":"Connor",
-          "Class":"2015",
-          "College":"Santa Clara University",
-          "Latitude":"37.3496418",
-          "Longitude":"-121.9411762"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-121.9411762,37.3496418]
-        }
+      "properties":{
+        "Last":"Dalbow",
+        "First":"Connor",
+        "Class":"2015",
+        "College":"Santa Clara University",
+        "Latitude":"37.3496418","Longitude":"-121.9411762"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-121.9411762,37.3496418]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Daniels",
-          "First":"Mason",
-          "Class":"2015",
-          "College":"University of San Diego",
-          "Latitude":"32.7714815",
-          "Longitude":"-117.1921995"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-117.1921995,32.7714815]
-        }
+      "properties":{
+        "Last":"Daniels",
+        "First":"Mason",
+        "Class":"2015",
+        "College":"University of San Diego",
+        "Latitude":"32.7714815","Longitude":"-117.1921995"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.1921995,32.7714815]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Davis",
-          "First":"Clayton",
-          "Class":"2015",
-          "College":"University of Arizona",
-          "Latitude":"32.2318851",
-          "Longitude":"-110.9522981"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-110.9522981,32.2318851]
-        }
+      "properties":{
+        "Last":"Davis",
+        "First":"Clayton",
+        "Class":"2015",
+        "College":"University of Arizona",
+        "Latitude":"32.2318851","Longitude":"-110.9522981"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-110.9522981,32.2318851]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Ellsworth",
-          "First":"Ethan",
-          "Class":"2015",
-          "College":"Creighton University",
-          "Latitude":"41.2650114",
-          "Longitude":"-95.949896"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-95.949896,41.2650114]
-        }
+      "properties":{
+        "Last":"Ellsworth",
+        "First":"Ethan",
+        "Class":"2015",
+        "College":"Creighton University",
+        "Latitude":"41.2650114","Longitude":"-95.949896"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-95.949896,41.2650114]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Ferzacca",
-          "First":"Nina",
-          "Class":"2015",
-          "College":"Colorado Mesa University",
-          "Latitude":"39.0787545",
-          "Longitude":"-108.5557147"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-108.5557147,39.0787545]
-        }
+      "properties":{
+        "Last":"Ferzacca",
+        "First":"Nina",
+        "Class":"2015",
+        "College":"Colorado Mesa University",
+        "Latitude":"39.0787545","Longitude":"-108.5557147"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-108.5557147,39.0787545]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Gonzalez",
-          "First":"Sofia",
-          "Class":"2015",
-          "College":"Regis University",
-          "Latitude":"39.7891287",
-          "Longitude":"-105.0328138"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-105.0328138,39.7891287]
-        }
+      "properties":{
+        "Last":"Gonzalez",
+        "First":"Sofia",
+        "Class":"2015",
+        "College":"Regis University",
+        "Latitude":"39.7891287","Longitude":"-105.0328138"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.0328138,39.7891287]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Gould",
-          "First":"Cooper",
-          "Class":"2015",
-          "College":"Texas Christian University",
-          "Latitude":"32.7094648",
-          "Longitude":"-97.3649167"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-97.3649167,32.7094648]
-        }
+      "properties":{
+        "Last":"Gould",
+        "First":"Cooper",
+        "Class":"2015",
+        "College":"Texas Christian University",
+        "Latitude":"32.7094648","Longitude":"-97.3649167"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-97.3649167,32.7094648]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Herron",
-          "First":"Luke",
-          "Class":"2015",
-          "College":"Augustana University",
-          "Latitude":"43.5224294",
-          "Longitude":"-96.7415523"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-96.7415523,43.5224294]
-        }
+      "properties":{
+        "Last":"Herron",
+        "First":"Luke",
+        "Class":"2015",
+        "College":"Augustana University",
+        "Latitude":"43.5224294","Longitude":"-96.7415523"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-96.7415523,43.5224294]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Lange",
-          "First":"Michael",
-          "Class":"2015",
-          "College":"Montana State University",
-          "Latitude":"45.667565",
-          "Longitude":"-111.0515427"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-111.0515427,45.667565]
-        }
+      "properties":{
+        "Last":"Lange",
+        "First":"Michael",
+        "Class":"2015",
+        "College":"Montana State University",
+        "Latitude":"45.667565","Longitude":"-111.0515427"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-111.0515427,45.667565]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Li",
-          "First":"Yizhe",
-          "Class":"2015",
-          "College":"UC Irvine",
-          "Latitude":"33.6404952",
-          "Longitude":"-117.8464849"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-117.8464849,33.6404952]
-        }
+      "properties":{
+        "Last":"Li",
+        "First":"Yizhe",
+        "Class":"2015",
+        "College":"UC Irvine",
+        "Latitude":"33.6404952","Longitude":"-117.8464849"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.8464849,33.6404952]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"McDonald",
-          "First":"Stuart",
-          "Class":"2015",
-          "College":"University of Chicago",
-          "Latitude":"41.7886079",
-          "Longitude":"-87.600902"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-87.600902,41.7886079]
-        }
+      "properties":{
+        "Last":"McDonald",
+        "First":"Stuart",
+        "Class":"2015",
+        "College":"University of Chicago",
+        "Latitude":"41.7886079","Longitude":"-87.600902"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-87.600902,41.7886079]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"McGuckin",
-          "First":"Crane",
-          "Class":"2015",
-          "College":"Baylor University",
-          "Latitude":"31.5482204",
-          "Longitude":"-97.1206264"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-97.1206264,31.5482204]
-        }
+      "properties":{
+        "Last":"McGuckin",
+        "First":"Crane",
+        "Class":"2015",
+        "College":"Baylor University",
+        "Latitude":"31.5482204","Longitude":"-97.1206264"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-97.1206264,31.5482204]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Michonski",
-          "First":"Chase",
-          "Class":"2015",
-          "College":"Cedarville University",
-          "Latitude":"39.7506658",
-          "Longitude":"-83.8127206"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-83.8127206,39.7506658]
-        }
+      "properties":{
+        "Last":"Michonski",
+        "First":"Chase",
+        "Class":"2015",
+        "College":"Cedarville University",
+        "Latitude":"39.7506658","Longitude":"-83.8127206"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-83.8127206,39.7506658]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Robinson",
-          "First":"Keelin",
-          "Class":"2015",
-          "College":"Northern Arizona State University",
-          "Latitude":"35.1898983",
-          "Longitude":"-111.6549486"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-111.6549486,35.1898983]
-        }
+      "properties":{
+        "Last":"Robinson",
+        "First":"Keelin",
+        "Class":"2015",
+        "College":"Northern Arizona State University",
+        "Latitude":"35.1898983","Longitude":"-111.6549486"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-111.6549486,35.1898983]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Santaniello",
-          "First":"Nick",
-          "Class":"2015",
-          "College":"CU Boulder",
-          "Latitude":"40.007581",
-          "Longitude":"-105.2681304"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-105.2681304,40.007581]
-        }
+      "properties":{
+        "Last":"Santaniello",
+        "First":"Nick",
+        "Class":"2015",
+        "College":"CU Boulder",
+        "Latitude":"40.007581","Longitude":"-105.2681304"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2681304,40.007581]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Schramm",
-          "First":"Max",
-          "Class":"2015",
-          "College":"Condordia Wisconsin",
-          "Latitude":"43.2533939",
-          "Longitude":"-87.9175279"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-87.9175279,43.2533939]
-        }
+      "properties":{
+        "Last":"Schramm",
+        "First":"Max",
+        "Class":"2015",
+        "College":"Condordia Wisconsin",
+        "Latitude":"43.2533939","Longitude":"-87.9175279"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-87.9175279,43.2533939]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Smith",
-          "First":"Larkin",
-          "Class":"2015",
-          "College":"University of Chicago",
-          "Latitude":"41.7886079",
-          "Longitude":"-87.600902"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-87.600902,41.7886079]
-        }
+      "properties":{
+        "Last":"Smith",
+        "First":"Larkin",
+        "Class":"2015",
+        "College":"University of Chicago",
+        "Latitude":"41.7886079","Longitude":"-87.600902"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-87.600902,41.7886079]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Sun",
-          "First":"Mingxin",
-          "Class":"2015",
-          "College":"Boston University",
-          "Latitude":"42.3504997",
-          "Longitude":"-71.1075878"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-71.1075878,42.3504997]
-        }
+      "properties":{
+        "Last":"Sun",
+        "First":"Mingxin",
+        "Class":"2015",
+        "College":"Boston University",
+        "Latitude":"42.3504997","Longitude":"-71.1075878"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-71.1075878,42.3504997]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Sweet",
-          "First":"Mary",
-          "Class":"2015",
-          "College":"Creighton University",
-          "Latitude":"41.2650114",
-          "Longitude":"-95.949896"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-95.949896,41.2650114]
-        }
+      "properties":{
+        "Last":"Sweet",
+        "First":"Mary",
+        "Class":"2015",
+        "College":"Creighton University",
+        "Latitude":"41.2650114","Longitude":"-95.949896"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-95.949896,41.2650114]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Trillo",
-          "First":"Reynaldo",
-          "Class":"2015",
-          "College":"Colorado Mesa University",
-          "Latitude":"39.0787545",
-          "Longitude":"-108.5557147"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-108.5557147,39.0787545]
-        }
+      "properties":{
+        "Last":"Trillo",
+        "First":"Reynaldo",
+        "Class":"2015",
+        "College":"Colorado Mesa University",
+        "Latitude":"39.0787545","Longitude":"-108.5557147"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-108.5557147,39.0787545]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Wiemer",
-          "First":"Baylee",
-          "Class":"2015",
-          "College":"Colorado Mesa University",
-          "Latitude":"39.0787545",
-          "Longitude":"-108.5557147"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-108.5557147,39.0787545]
-        }
+      "properties":{
+        "Last":"Wiemer",
+        "First":"Baylee",
+        "Class":"2015",
+        "College":"Colorado Mesa University",
+        "Latitude":"39.0787545","Longitude":"-108.5557147"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-108.5557147,39.0787545]
+      }
     },
     {"type":"Feature",
-      "properties":
-        {
-          "Last":"Wilson",
-          "First":"Garrett",
-          "Class":"2015",
-          "College":"Gonzaga University",
-          "Latitude":"47.6681035",
-          "Longitude":"-117.4046924"
-        },
-      "geometry":
-        {
-          "type":"Point",
-          "coordinates":[-117.4046924,47.6681035]
-        }
+      "properties":{
+        "Last":"Wilson",
+        "First":"Garrett",
+        "Class":"2015",
+        "College":"Gonzaga University",
+        "Latitude":"47.6681035","Longitude":"-117.4046924"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.4046924,47.6681035]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Angarola",
+        "First":"Elizabeth",
+        "Class":"2014",
+        "College":"University of SanFrancisco",
+        "Latitude":"37.7757492","Longitude":"-122.4525743"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-122.4525743,37.7757492]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Berger",
+        "First":"Allegra",
+        "Class":"2014",
+        "College":"Elon University",
+        "Latitude":"36.1048739","Longitude":"-79.5065356"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-79.5065356,36.1048739]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Bohren",
+        "First":"Christian",
+        "Class":"2014",
+        "College":"Texas A & M",
+        "Latitude":"29.7057148","Longitude":"-95.4094211"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-95.4094211,29.7057148]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Burner",
+        "First":"Lukas",
+        "Class":"2014",
+        "College":"CU Boulder",
+        "Latitude":"40.007581","Longitude":"-105.2681304"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2681304,40.007581]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Caynoski",
+        "First":"Cole",
+        "Class":"2014",
+        "College":"Rensselaer Polytechnic Institute",
+        "Latitude":"42.730172","Longitude":"-73.6809913"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-73.6809913,42.730172]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Cheesman",
+        "First":"Thomas",
+        "Class":"2014",
+        "College":"CU Boulder",
+        "Latitude":"40.007581","Longitude":"-105.2681304"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2681304,40.007581]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Curry",
+        "First":"Kristen",
+        "Class":"2014",
+        "College":"Elon University",
+        "Latitude":"36.1048739","Longitude":"-79.5065356"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-79.5065356,36.1048739]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Curry",
+        "First":"Branden",
+        "Class":"2014",
+        "College":"USC",
+        "Latitude":"34.0223519","Longitude":"-118.2873057"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-118.2873057,34.0223519]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Hancock",
+        "First":"Samantha",
+        "Class":"2014",
+        "College":"University of Denver",
+        "Latitude":"39.6766174","Longitude":"-104.9640852"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-104.9640852,39.6766174]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Hixon",
+        "First":"Aime",
+        "Class":"2014",
+        "College":"Hope College",
+        "Latitude":"42.78874","Longitude":"-86.1062479"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-86.1062479,42.78874]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Joly",
+        "First":"Sebastian",
+        "Class":"2014",
+        "College":"Colorado School of Mines",
+        "Latitude":"39.7509032","Longitude":"-105.2250257"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2250257,39.7509032]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Lengle",
+        "First":"Hayli",
+        "Class":"2014",
+        "College":"CU Boulder",
+        "Latitude":"40.007581","Longitude":"-105.2681304"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2681304,40.007581]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Lu",
+        "First":"Zehoe",
+        "Class":"2014",
+        "College":"Michigan State",
+        "Latitude":"42.701848","Longitude":"-84.4843606"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-84.4843606,42.701848]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"McCormick",
+        "First":"Isabella",
+        "Class":"2014",
+        "College":"Northern Arizona University",
+        "Latitude":"35.1898983","Longitude":"-111.6549486"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-111.6549486,35.1898983]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Nary",
+        "First":"Kennedy",
+        "Class":"2014",
+        "College":"Clemson",
+        "Latitude":"34.6786106","Longitude":"-82.8393628"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-82.8393628,34.6786106]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Poage",
+        "First":"Parker",
+        "Class":"2014",
+        "College":"Texas A & M",
+        "Latitude":"29.7057148","Longitude":"-95.4094211"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-95.4094211,29.7057148]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Schneider",
+        "First":"Sarah",
+        "Class":"2014",
+        "College":"Calvary Chapel Bible School",
+        "Latitude":"33.5587705","Longitude":"-117.1591698"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.1591698,33.5587705]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Shu",
+        "First":"Wenting",
+        "Class":"2014",
+        "College":"CU Boulder",
+        "Latitude":"40.007581","Longitude":"-105.2681304"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2681304,40.007581]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Siriwalothakul",
+        "First":"Vanessa",
+        "Class":"2014",
+        "College":"Carnegie Mellon",
+        "Latitude":"40.4424925","Longitude":"-79.9447415"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-79.9447415,40.4424925]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Smith",
+        "First":"Celia",
+        "Class":"2014",
+        "College":"Pepperdine",
+        "Latitude":"34.0414045","Longitude":"-118.7117701"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-118.7117701,34.0414045]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Smith",
+        "First":"McKenzie",
+        "Class":"2014",
+        "College":"Northwestern",
+        "Latitude":"42.0564594","Longitude":"-87.6774557"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-87.6774557,42.0564594]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Xu",
+        "First":"Qing Yuan",
+        "Class":"2014",
+        "College":"Parson's School of Design",
+        "Latitude":"40.7351595","Longitude":"-73.9968231"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-73.9968231,40.7351595]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Baker",
+        "First":"Paris",
+        "Class":"2013",
+        "College":"Colorado State University",
+        "Latitude":"40.573436","Longitude":"-105.088736"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.088736,40.573436]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Boselli",
+        "First":"Kevin",
+        "Class":"2013",
+        "College":"Santa Clara University",
+        "Latitude":"37.3496418","Longitude":"-121.9411762"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-121.9411762,37.3496418]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Carlson",
+        "First":"Allison",
+        "Class":"2013",
+        "College":"Chapman University",
+        "Latitude":"33.7924581","Longitude":"-117.8534469"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.8534469,33.7924581]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Cooper",
+        "First":"Mack",
+        "Class":"2013",
+        "College":"University of Southern California",
+        "Latitude":"34.0223519","Longitude":"-118.2873057"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-118.2873057,34.0223519]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Downs",
+        "First":"Angela",
+        "Class":"2013",
+        "College":"AMDA New York",
+        "Latitude":"40.772324","Longitude":"-73.98982"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-73.98982,40.772324]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Ellsworth",
+        "First":"Austin",
+        "Class":"2013",
+        "College":"Illinois College",
+        "Latitude":"39.730343","Longitude":"-90.2487456"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-90.2487456,39.730343]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Gonzalez",
+        "First":"Maria",
+        "Class":"2013",
+        "College":"DePaul University",
+        "Latitude":"41.9574165","Longitude":"-87.9729804"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-87.9729804,41.9574165]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Hamina",
+        "First":"Gunnar",
+        "Class":"2013",
+        "College":"Loyola Marymount University",
+        "Latitude":"33.9704172","Longitude":"-118.4195933"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-118.4195933,33.9704172]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Johnsen",
+        "First":"Nigel",
+        "Class":"2013",
+        "College":"University of San Diego",
+        "Latitude":"32.7714815","Longitude":"-117.1921995"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.1921995,32.7714815]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Kalakewich",
+        "First":"Kierra",
+        "Class":"2013",
+        "College":"Colorado State University",
+        "Latitude":"40.573436","Longitude":"-105.088736"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.088736,40.573436]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Linder",
+        "First":"Zachary",
+        "Class":"2013",
+        "College":"CU-Boulder",
+        "Latitude":"40.007581","Longitude":"-105.2681304"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2681304,40.007581]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"McGuckin",
+        "First":"Gracen",
+        "Class":"2013",
+        "College":"Duke University",
+        "Latitude":"36.0014258","Longitude":"-78.9404173"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-78.9404173,36.0014258]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Mesch",
+        "First":"Jordan",
+        "Class":"2013",
+        "College":"Santa Clara University",
+        "Latitude":"37.3496418","Longitude":"-121.9411762"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-121.9411762,37.3496418]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Nary",
+        "First":"Mimi",
+        "Class":"2013",
+        "College":"Saint Mary�s College at Notre Dame",
+        "Latitude":"41.7083299","Longitude":"-86.2603121"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-86.2603121,41.7083299]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Purse",
+        "First":"Tyler",
+        "Class":"2013",
+        "College":"Arizona State University",
+        "Latitude":"33.4574632","Longitude":"-112.0606191"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-112.0606191,33.4574632]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Reyes",
+        "First":"Cindy",
+        "Class":"2013",
+        "College":"CU-Denver",
+        "Latitude":"39.746924","Longitude":"-105.0022017"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.0022017,39.746924]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Ruiz",
+        "First":"Fernando",
+        "Class":"2013",
+        "College":"Colorado State University",
+        "Latitude":"40.573436","Longitude":"-105.088736"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.088736,40.573436]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Sun",
+        "First":"Sean Xin",
+        "Class":"2013",
+        "College":"University of Denver",
+        "Latitude":"39.6766174","Longitude":"-104.9640852"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-104.9640852,39.6766174]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Webb",
+        "First":"Kyra",
+        "Class":"2013",
+        "College":"Colby College",
+        "Latitude":"44.5629731","Longitude":"-69.6615708"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-69.6615708,44.5629731]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Wilson",
+        "First":"Gunnar",
+        "Class":"2013",
+        "College":"Baylor University",
+        "Latitude":"31.5505149","Longitude":"-97.1098263"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-97.1098263,31.5505149]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Zhao",
+        "First":"Yeuting Grace",
+        "Class":"2013",
+        "College":"University of Miami",
+        "Latitude":"25.7197396","Longitude":"-80.2792729"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-80.2792729,25.7197396]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Alexander",
+        "First":"Kylie",
+        "Class":"2012",
+        "College":"Concordia Irvine",
+        "Latitude":"33.6541189","Longitude":"-117.8127425"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.8127425,33.6541189]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Caynoski",
+        "First":"Chase",
+        "Class":"2012",
+        "College":"Rochester Institute of Technology",
+        "Latitude":"43.084483","Longitude":"-77.678554"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-77.678554,43.084483]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Dalbow",
+        "First":"Brendan",
+        "Class":"2012",
+        "College":"USC",
+        "Latitude":"34.0223519","Longitude":"-118.2873057"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-118.2873057,34.0223519]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Dempsey",
+        "First":"Chelsea",
+        "Class":"2012",
+        "College":"CU Boulder",
+        "Latitude":"40.007581","Longitude":"-105.2681304"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-105.2681304,40.007581]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Green",
+        "First":"Hannah",
+        "Class":"2012",
+        "College":"Mercyhurst",
+        "Latitude":"42.1050905","Longitude":"-80.0553701"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-80.0553701,42.1050905]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Gruber",
+        "First":"Ashlyn",
+        "Class":"2012",
+        "College":"Davidson College",
+        "Latitude":"35.500022","Longitude":"-80.8473962"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-80.8473962,35.500022]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Hernandez",
+        "First":"Fernando",
+        "Class":"2012",
+        "College":"Marquette",
+        "Latitude":"43.0384823","Longitude":"-87.9318244"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-87.9318244,43.0384823]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Huzella",
+        "First":"Thomas",
+        "Class":"2012",
+        "College":"University of Western Michigan",
+        "Latitude":"42.2831778","Longitude":"-85.6174073"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-85.6174073,42.2831778]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Malagon",
+        "First":"Andrea",
+        "Class":"2012",
+        "College":"Azusa Pacific",
+        "Latitude":"34.1300755","Longitude":"-117.890548"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.890548,34.1300755]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"O'Brien",
+        "First":"McKenzie",
+        "Class":"2012",
+        "College":"Wheaton College",
+        "Latitude":"41.8685135","Longitude":"-88.1017907"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-88.1017907,41.8685135]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Ryan",
+        "First":"Sean",
+        "Class":"2012",
+        "College":"University of Colorado - Fort Lewis",
+        "Latitude":"37.2753391","Longitude":"-107.8705995"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-107.8705995,37.2753391]
+      }
+    },
+    {"type":"Feature",
+      "properties":{
+        "Last":"Vlaar",
+        "First":"Tessa",
+        "Class":"2012",
+        "College":"Gonzaga",
+        "Latitude":"47.6681035","Longitude":"-117.4046924"
+      },
+      "geometry":{
+        "type":"Point",
+        "coordinates":[-117.4046924,47.6681035]
+      }
     }
   ]
 }
