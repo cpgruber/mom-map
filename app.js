@@ -7,7 +7,32 @@ var initExtent = [39.2918809, -76.6400553];
 var map = L.mapbox.map('map', 'mapbox.streets', {zoomControl: false});
 new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
-var ptLayer =  L.featureGroup().addTo(map);
+var studentCluster = new L.MarkerClusterGroup({
+    iconCreateFunction: function (cluster) {
+        var markers = cluster.getChildCount();
+        return L.divIcon({
+          html: markers,
+          className: 'cluster',
+          iconSize:L.point(20,20)
+        })
+    },
+    spiderfyOnMaxZoom: false,
+    showCoverageOnHover: false,
+    spiderLegPolylineOptions: {weight: 1, color:'#fff'},
+    maxClusterRadius:20
+}).addTo(map);
+
+studentCluster.on('clusterclick', function (a) {
+   var count = a.layer.getChildCount();
+   var currZoom = map.getZoom();
+   if (currZoom > 6) {
+       a.layer.zoomToBounds();
+       if (count < 13) {
+           a.layer.spiderfy();
+       };
+   };
+ });
+
 var locations = omnivore.geojson('data/data.json', null, L.mapbox.featureLayer());
 locations.on("ready", function(){
   addLayers(locations)
@@ -45,12 +70,12 @@ function addLayers(locations){
            popupAnchor:[0,0]
        }))
        .bindPopup(layer.feature.properties.College)
-       .addTo(ptLayer);
+      .addTo(studentCluster)
    });
 }
 
 function filterMap(years){
-  ptLayer.clearLayers();
+  studentCluster.clearLayers();
   var locs = locations.setFilter(function(d){return years.indexOf(d.properties["Class"])!=-1});
   addLayers(locs)
 }
