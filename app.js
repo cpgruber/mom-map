@@ -9,28 +9,19 @@ new L.Control.Zoom({ position: 'topright' }).addTo(map);
 
 var studentCluster = new L.MarkerClusterGroup({
     iconCreateFunction: function (cluster) {
-        var markers = cluster.getChildCount();
         return L.divIcon({
-          html: markers,
           className: 'cluster',
-          iconSize:L.point(20,20)
+          iconSize:L.point(40,40)
         })
     },
     spiderfyOnMaxZoom: false,
     showCoverageOnHover: false,
     spiderLegPolylineOptions: {weight: 1, color:'#fff'},
-    maxClusterRadius:20
+    maxClusterRadius:30
 }).addTo(map);
 
-studentCluster.on('clusterclick', function (a) {
-   var count = a.layer.getChildCount();
-   var currZoom = map.getZoom();
-   if (currZoom > 6) {
-       a.layer.zoomToBounds();
-       if (count < 13) {
-           a.layer.spiderfy();
-       };
-   };
+studentCluster.on('clustermouseover', function (a) {
+  a.layer.spiderfy();
  });
 
 var locations = omnivore.geojson('data/data.json', null, L.mapbox.featureLayer());
@@ -69,8 +60,12 @@ function addLayers(locations){
            iconSize:[15,15],
            popupAnchor:[0,0]
        }))
-       .bindPopup(layer.feature.properties.College)
+       .bindPopup(layer.feature.properties.College+"<br>Class of "+layer.feature.properties.Class)
       .addTo(studentCluster)
+    marker.on("mouseover",function(evt){
+      evt.preventDefault;
+      this.openPopup();
+    })
    });
 }
 
