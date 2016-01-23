@@ -136,11 +136,11 @@
       "properties":{
         "Class":"2015",
         "College":"Augustana University",
-        "Latitude":"43.5224294","Longitude":"-96.7415523"
+        "Latitude":"41.5042459","Longitude":"-90.5534456"
       },
       "geometry":{
         "type":"Point",
-        "coordinates":[-96.7415523,43.5224294]
+        "coordinates":[-90.5534456,41.5042459],
       }
     },
     {"type":"Feature",
